@@ -20,6 +20,8 @@
 		A9F2CBA915E7A2B70081A940 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F2CB8A15E7A2B70081A940 /* Foundation.framework */; };
 		A9F2CBB115E7A2B70081A940 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9F2CBAF15E7A2B70081A940 /* InfoPlist.strings */; };
 		A9F2CBB415E7A2B70081A940 /* GiroscopioExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F2CBB315E7A2B70081A940 /* GiroscopioExampleTests.m */; };
+		A9F2CBBE15E7A3B20081A940 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F2CBBD15E7A3B20081A940 /* CoreMotion.framework */; };
+		A9F2CBC015E7A66D0081A940 /* figher-jet.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F2CBBF15E7A66D0081A940 /* figher-jet.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		A9F2CBB015E7A2B70081A940 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A9F2CBB215E7A2B70081A940 /* GiroscopioExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiroscopioExampleTests.h; sourceTree = "<group>"; };
 		A9F2CBB315E7A2B70081A940 /* GiroscopioExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiroscopioExampleTests.m; sourceTree = "<group>"; };
+		A9F2CBBD15E7A3B20081A940 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A9F2CBBF15E7A66D0081A940 /* figher-jet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "figher-jet.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F2CBBE15E7A3B20081A940 /* CoreMotion.framework in Frameworks */,
 				A9F2CB8915E7A2B70081A940 /* UIKit.framework in Frameworks */,
 				A9F2CB8B15E7A2B70081A940 /* Foundation.framework in Frameworks */,
 				A9F2CB8D15E7A2B70081A940 /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +105,7 @@
 		A9F2CB8715E7A2B70081A940 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A9F2CBBD15E7A3B20081A940 /* CoreMotion.framework */,
 				A9F2CB8815E7A2B70081A940 /* UIKit.framework */,
 				A9F2CB8A15E7A2B70081A940 /* Foundation.framework */,
 				A9F2CB8C15E7A2B70081A940 /* CoreGraphics.framework */,
@@ -116,6 +122,7 @@
 				A9F2CB9A15E7A2B70081A940 /* MainStoryboard.storyboard */,
 				A9F2CB9D15E7A2B70081A940 /* ViewController.h */,
 				A9F2CB9E15E7A2B70081A940 /* ViewController.m */,
+				A9F2CBBF15E7A66D0081A940 /* figher-jet.png */,
 				A9F2CB8F15E7A2B70081A940 /* Supporting Files */,
 			);
 			path = GiroscopioExample;
@@ -224,6 +231,7 @@
 			files = (
 				A9F2CB9315E7A2B70081A940 /* InfoPlist.strings in Resources */,
 				A9F2CB9C15E7A2B70081A940 /* MainStoryboard.storyboard in Resources */,
+				A9F2CBC015E7A66D0081A940 /* figher-jet.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
